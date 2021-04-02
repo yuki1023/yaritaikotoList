@@ -1,0 +1,50 @@
+PODS:
+  - Kingfisher (5.15.6):
+    - Kingfisher/Core (= 5.15.6)
+  - Kingfisher/Core (5.15.6)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - NCMB (3.1.0)
+  - NYXImagesKit (2.3)
+  - SVProgressHUD (2.2.5)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Kingfisher
+  - KRProgressHUD
+  - NCMB (from `https://github.com/NIFCLOUD-mbaas/ncmb_ios.git`)
+  - NYXImagesKit
+  - SVProgressHUD
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - NYXImagesKit
+    - SVProgressHUD
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 06072ba57e6ef461cafd20feaa798be0eef0cf8b
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  Kingfisher: b3554e7bf6106115b44e8795300bad580ef2fdc7
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 49ce06716dd6d660098fbc95678e1a5409f4681c
+
+COCOAPODS: 1.9.3
